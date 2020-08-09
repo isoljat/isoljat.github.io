@@ -1,0 +1,72 @@
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+body {
+
+  background-color: pink;
+  font-family: 'Montserrat', sans-serif;
+}
+#header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  display: block;
+  margin-top: 0;
+  width: 100%;
+  background-color: pink;
+  z-index: 1;
+  height: 150px;
+  box-shadow: 0 0 30px 0 teal;
+}
+#header ul {
+  padding: 0px;
+  margin: 0px 40px 0px 40px;
+}
+#header-bar li {
+  display: inline;
+}
+#header-bar img {
+  padding-left: 0px;
+  height: 145px;
+}
+#left {
+  float: left;
+}
+.me img {
+  width: 300px;
+  border-radius: 150px;
+  margin: 30px 0 0 70px;
+
+}
+#datenpics {
+  list-style-type: none;
+  display: inline-block;
+  float: left;
+  font-weight: bold;
+}
+#datenpics img {
+  float: left;
+  padding-top: 16px;
+  width: 20px;
+}
+.daten p {
+  padding-left: 30px;
+}
+.cbox, .cbox1, .cbox2, .cbox3, .cbox4, .cbox5 {
+    display: inline-block;
+}
+
+#angaben {
+  list-style-type: none;
+  float: left;
+}
+.alles {
+}
+.fragen  {
+  position: absolute;
+  padding-left: 450px;
+}
+.antworten {
+  padding-top: 16px;
+  padding-left: 650px;
+}
